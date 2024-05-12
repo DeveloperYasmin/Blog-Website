@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post 1 - My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="post1.html">Post 1</a></li>
+            <li><a href="post2.html">Post 2</a></li>
+            <li><a href="post3.html">Post 3</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h1>Post 1: First Post Title</h1>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/025/284/015/small_2x/close-up-growing-beautiful-forest-in-glass-ball-and-flying-butterflies-in-nature-outdoors-spring-season-concept-generative-ai-photo.jpg" alt="Placeholder Image">
+        <p>This is the content of the first post.</p>
+        <p>Date: May 12, 2024</p>
+    </div>
+
+    <!-- Comment Section -->
+    <div class="comments">
+        <h2>Comments</h2>
+        <div id="commentsList"></div>
+        <form id="commentForm">
+            <input type="text" id="name" placeholder="Your Name" required><br>
+            <textarea id="message" placeholder="Your Comment" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
